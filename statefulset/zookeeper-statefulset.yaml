@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: zookeeper
-        image: enthru/zookeeper:v3
+        image: enthru/zookeeper:v1
         command: ["/bin/bash", "start-zookeeper.sh"]
         ports:
         - name: listener
